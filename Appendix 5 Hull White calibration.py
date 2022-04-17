@@ -21,7 +21,7 @@ def Price_ZC(a,sigma,t,T,P_T,P_t,X_t,F_t):
 
 
 #Get the data needed : forward exchange rate and ZC curve CHANGE THE PATH
-data = pd.read_csv(r"C:\Users\User\Desktop\data_ZC_FWD.csv", 
+data = pd.read_csv(r"C:\Users\User\Desktop\Data_Hull_White.csv", 
                        sep=";", skip_blank_lines=True).iloc[:14,:4]
 
 #Formatting the dataframe
