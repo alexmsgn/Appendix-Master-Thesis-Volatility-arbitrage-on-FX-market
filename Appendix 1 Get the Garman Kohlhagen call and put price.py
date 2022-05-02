@@ -22,13 +22,13 @@ def GarmanKohlhagenPutPrice(Xt, K, T, r_d, r_f, vol,t):
     return(GarmanKohlhagenPutPrice)
 
 #Inputs YOU MUST FILL (floats)
-Xt =
-K = 
-T = 
-t= 
-r_d = 
-r_f = 
-vol = 
+Xt = 1.16
+K = 1.14
+T = 2
+t= 1
+r_d = 0.02
+r_f = 0.05
+vol = 0.20
 
 
 #Get the outputs 
