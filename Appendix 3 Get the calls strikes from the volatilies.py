@@ -10,9 +10,9 @@ def Normsdist(x):
     return (Normsdist)
 
 #initialize the parameters YOU MUST FILL (floats)
-rd = 
-rf = 
-Xt =
+rd = 0.02
+rf = 0.05
+Xt = 1.16
 
 #get the volatility data CHANGE THE PATH
 df = pd.read_csv(r"C:\Users\User\Desktop\EURUSD_Call_Mid.csv",sep=";")
