@@ -23,14 +23,14 @@ def GarmanKohlhagenCallPrice(Xt, K, T, r_d, r_f, vol,t):
     return(GarmanKohlhagenCallPrice)
 
 #Inputs YOU MUST FILL (floats)
-Xt =
-K = 
-T = 
-t= 
-r_d = 
-r_f = 
-market_price=
-epsilon = 
+Xt = 1.16
+K = 1.14
+T = 2
+t= 1
+r_d = 0.02
+r_f = 0.05
+market_price= 0.14
+epsilon = 0.0000001
 
 #Function to find the implied volatility of an option using Newton Raphson algorithm
 def implied_vol_gk (Xt, K, T, r_d, r_f, market_price,t,epsilon):
